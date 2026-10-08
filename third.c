@@ -3,14 +3,13 @@
 int main () {
 	int b = 0;
 
-	printf("enter the number and i say its divide 3 and 5\n");
+	printf("enter the number\n");
 	scanf("%d", &b);
-
-	if (b % 3 == 0 && b % 5 == 0) {
-		printf("yes it do!!\n");
-	} else {
-		printf("no ((\n");
+	
+	for ( int i= 0; i <= b; i++) {
+	     if ( i % 2 == 0 ){
+	       	printf("%d\n", i );
+		}
 	}
-
 	return 0;
 }
