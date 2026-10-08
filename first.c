@@ -1,17 +1,14 @@
 #include <stdio.h>
 
 int main() {
-	int a = 0;
-	int b = 0;
-	int temp;
+	int n = 0; 
 
-	printf("enter the  numbers\n");
-	scanf("%d %d", &a, &b);
-	temp = a;
-	a = b;
-	b = temp;
-	printf("%d, %d\n", a, b);
+	printf("enter any number\n");
+	scanf("%d", &n);
+
+	for(int i = 1; i <= n; i++) {
+		printf("%d\n", i);
+	}
 	
 	return 0;
-
-}
+  }
