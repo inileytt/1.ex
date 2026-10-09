@@ -1,2 +1,2 @@
-#ex.1
+#2 exercise
 
